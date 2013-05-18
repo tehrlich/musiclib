@@ -1,0 +1,256 @@
+body { margin: 0; padding: 0; background: #d7d6d1;}
+
+#cu-bar { 
+
+	font-family: verdana, arial, helvetica, sans-serif;
+	font-size: 10px;
+	color: #222;
+	height: 45px;
+	background: #b31b1b;
+
+}
+
+#cu-logo{
+
+	margin: 0 auto;
+	width: 740px;
+	background: url(cu_logo.gif) no-repeat top left;
+
+}
+
+a {
+
+	color: #b31b1b;	
+
+}
+
+
+
+#cu-logo a {
+
+		border: none;
+		display: block;
+		width: 180px;
+		height: 45px;
+		background: url(cu_logo.gif) no-repeat top left;
+
+}
+
+#cu-logo img {
+
+	display: none;
+
+}
+
+#cu-search {
+
+	position: absolute;
+	top: 11px;
+	right: 50%;
+	width: 200px;
+	margin-right: -385px;
+
+}
+
+#cu-search a {
+
+	float: right;
+	padding: 5px 15px;
+	font-size: 11px;
+	color: #fff;
+	text-decoration: none;
+	border: none;
+
+}
+
+#cu-search a:hover {
+
+	background: #990f26;
+
+}
+
+#subbar{
+
+	font-family: verdana, arial, helvetica, sans-serif;
+	font-size: 18px;
+	color: #444;
+	height: 65px;
+	background: #fff;
+
+}
+
+
+#header {
+	float: left;
+	width: 100%;
+	background: #b3b3aa;
+	}
+	
+br {
+   display: block;
+   margin: 0px 0;
+}
+	
+#navigation {
+	margin: 0 auto;
+	width: 750px;
+	}
+	
+#navigation ul {
+	float: left;
+	margin: 0;
+	padding: 0;
+	border-left: 1px solid #a6a69d;
+	width: 900px;
+	font-size: 1em;
+	}
+	
+#navigation li {
+	margin: 0;
+	padding: 0;
+	float: left;
+	background: none;
+	color: #b3b3aa;
+	}
+	
+#navigation a {
+	float: left;
+	padding: 7px 20px;
+	border: none;
+	border-right: 1px solid #a6a69d;
+	font-size: .8em;
+	font-weight: bold;
+	color: #fff;
+	text-decoration: none;
+	font-family: verdana, arial, helvetica, sans-serif;
+	list-style: none;
+	}
+	
+#navigation a:hover {
+	background: #dbdbd2;
+	color: #b31b1b;
+	}
+	
+#navigation li:hover {
+	margin: 0;
+	padding: 0;
+	float: left;
+	background: none;
+	color: #b3b3aa;
+	}
+	
+#navigation a.active {
+	background: #dbdbd2;
+	color: #b31b1b;
+	}
+
+#sb-logo{
+
+	margin: 4px auto;
+	background: url(cuwinds.png) no-repeat top left;
+	height: 60px;
+	width: 740px;
+
+}
+
+#sb-text{
+
+	position: absolute;
+	top: 70px;
+	right: 50%;
+	width: 300px;
+	margin-right: -460px;
+
+}
+
+#container{
+
+	background: #f0eee4;
+	width: 100%;
+
+}
+
+#content{
+
+	margin: 0 auto;
+	width: 740px;
+	padding: 5px;
+	padding-top: 50px;
+	padding-bottom: 80px;
+	font-family: verdana, arial, helvetica, sans-serif;
+	font-size: 75.125%;
+
+}
+
+#footer li {
+	color: #d7d6d1;
+}
+
+#footerwrap {
+	/* float: center; sick of this error */
+	margin: 0 auto 0 auto;
+	width: 100%;
+   	background: #d7d6d1;
+	padding-bottom: 15px;
+	color: #d7d6d1;
+	/* hack ie5/win */
+	text-align: center;
+   	}
+
+#footer {
+	color: #333;
+	width: 740px;
+  	margin: 0 auto;
+	padding: 10px 0 0 0;
+	font-family: verdana, arial, helvetica, sans-serif;
+    font-size: 0.7em;
+
+	/* unhack ie5/win */
+	text-align: center;
+   	}
+
+.oddsection,  .evensection {
+	float: left;
+	width: 100%;
+	padding: 10px 0;
+	}
+
+.oddsection, .row1 {
+	background: #fff;
+	}
+	
+.evensection, .row2 {
+	background: #fafaf7;
+	}
+	
+.evensection, .oddsection, .row1, .row2 {
+	border-bottom: 1px solid #ddd;
+	}
+
+
+.indent{
+
+	padding-left: 12px;	
+
+}
+
+form{
+
+	margin: 0;
+	padding: 0;
+
+}
+
+h2{
+
+	font-family: Verdana, Geneva, sans-serif;	
+
+}
+
+h3{
+
+	color: #666;
+	margin-bottom: 4px;
+	font-family: Verdana, Geneva, sans-serif;
+
+}
