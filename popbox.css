@@ -1,0 +1,43 @@
+/*CREDIT TO: http://gristmill.github.com/jquery-popbox/ modified by me (TE) */
+.popbox {
+  position:relative;
+  text-align: left;
+  width:auto!important;
+}
+
+.collapse { 
+	position:relative; 
+	overflow:visible;
+}
+
+.box {
+	padding:10px;
+	color:white;
+	display:block;
+	display:none;
+	background:#252525;
+	border:solid 1px #878181;
+	border-radius:5px;
+	/*box-shadow:0px 0px 15px #999;*/
+	position:absolute;
+	z-index: 100;
+}
+
+.box a.close {
+	color:red;
+	font-size:12px;
+	font-family:arial;
+	text-decoration:underline;
+}
+
+.arrow {
+	width: 0;
+	height: 0;
+	border-left: 11px solid transparent;
+	border-right: 11px solid transparent;
+	border-bottom: 11px solid #878181;
+	position:absolute;
+	left:1px;
+	top:-12px;
+	z-index:1001;
+}

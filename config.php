@@ -18,7 +18,7 @@
 	//CUWEBAUTH STUFF	
 	//$netid = $_SERVER['REMOTE_USER']; 
 	//$name = $_SERVER['CUWA_FULL_USER'];
-	//$netid = cpj6; 
+	//$netid = 'cpj6'; 
 	$netid = $simplesaml_NetID;
 	$name = $simplesaml_RN;
 	$priv = mysql_query("SELECT privs FROM `Users` WHERE NetID='$netid'") or trigger_error(mysql_error());
@@ -26,8 +26,6 @@
 	$priv = $privs[0];
 	if($priv == "")
 		$priv = none;
-	//echo $netid;
-	//echo $priv;
 	
 	//Let's pull the NetID from LDAP (and other attributed in the future, if desired.)
 /*	$ds=ldap_connect("directory.cornell.edu"); 
