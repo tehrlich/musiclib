@@ -128,7 +128,7 @@ br {
 	background:url(cuwinds.png) no-repeat top left;
 	height:60px;
 	width:740px;
-	margin:4px auto;
+	margin:3px auto;
 }
 
 #sb-text {
@@ -188,14 +188,19 @@ h3 {
 
 #search{
 	height:auto;
-	margin:0 auto;
+	background:#d7d6d1;
+	width:100%;
+	float:left;
+	margin-bottom:10px;
 }
 
 #searchbar{
-	margin-top: 40px;
-	margin-bottom: 10px;
-	margin-left: 250px;
+	float:left;
+	margin-top:15px;
+	padding-left:266px;
 }
 #searchmsg{
-	
+	float:right;
+	padding-top:21px;
+	padding-right:200px;
 }
